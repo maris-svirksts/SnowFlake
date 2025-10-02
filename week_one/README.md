@@ -60,7 +60,7 @@ Populate the tables with sample data.
 -- Insert data into the Person table
 INSERT INTO Person (personId, lastName, firstName) VALUES
 (1, 'Wang', 'Allen'),
-(2, 'Alice', 'Bob');
+(2, 'Bob', 'Alice');
 
 -- Insert data into the Address table
 INSERT INTO Address (addressId, personId, city, state) VALUES
